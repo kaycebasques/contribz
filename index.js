@@ -1,5 +1,3 @@
-// Tally how much content was published in each quarter
-
 const puppeteer = require('puppeteer');
 const xml2js = require('xml2js');
 const axios = require('axios');
@@ -93,9 +91,8 @@ async function content(page) {
         noncontent: []
       }
     };
-    // TODO(kaycebasques): Remove hardcoding (used for development)
-    for (let i = 100; i < 150; i++) {
-    // for (let i = 0; i < json.urlset.url.length; i++) {
+    // for (let i = 100; i < 150; i++) {
+    for (let i = 0; i < json.urlset.url.length; i++) {
       const url = json.urlset.url[i].loc[0];
       console.info(`Scraping ${url} (${i + 1} of ${json.urlset.url.length})`);
       await page.goto(url, {
