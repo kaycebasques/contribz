@@ -1,101 +1,38 @@
 # report
 
-Auto-generated on 2020/8/18 (YYYY/MM/DD)
+Auto-generated on 2020/8/20 (YYYY/MM/DD)
 
 ## summary
 
-* 2010 Q2
-  * authors: 2
-  * pages: 1
-* 2010 Q3
-  * authors: 2
-  * pages: 1
-* 2013 Q4
-  * authors: 1
-  * pages: 1
-* 2015 Q4
-  * authors: 1
-  * pages: 1
-* 2016 Q4
-  * authors: 2
-  * pages: 1
-* 2017 Q4
-  * authors: 1
-  * pages: 1
-* 2018 Q1
-  * authors: 2
-  * pages: 1
 * 2018 Q2
   * authors: 2
   * pages: 3
-* 2018 Q3
-  * authors: 2
-  * pages: 3
 * 2018 Q4
-  * authors: 13
-  * pages: 64
+  * authors: 10
+  * pages: 59
 * 2019 Q1
-  * authors: 5
-  * pages: 8
+  * authors: 2
+  * pages: 5
 * 2019 Q2
   * authors: 33
   * pages: 41
 * 2019 Q3
-  * authors: 27
-  * pages: 43
+  * authors: 22
+  * pages: 34
 * 2019 Q4
   * authors: 29
   * pages: 34
 * 2020 Q1
-  * authors: 22
-  * pages: 25
+  * authors: 18
+  * pages: 22
 * 2020 Q2
   * authors: 40
   * pages: 59
 * 2020 Q3
-  * authors: 24
-  * pages: 23
+  * authors: 25
+  * pages: 25
 
 ## details
-
-### 2010 Q2
-
-* https://web.dev/read-files/
-  * kaycebasques
-  * petelepage
-
-### 2010 Q3
-
-* https://web.dev/drag-and-drop/
-  * ericbidelman
-  * rachelandrew
-
-### 2013 Q4
-
-* https://web.dev/promises/
-  * jakearchibald
-
-### 2015 Q4
-
-* https://web.dev/why-https-matters/
-  * kaycebasques
-
-### 2016 Q4
-
-* https://web.dev/resize-observer/
-  * surma
-  * joemedley
-
-### 2017 Q4
-
-* https://web.dev/cache-api-quick-guide/
-  * petelepage
-
-### 2018 Q1
-
-* https://web.dev/variable-fonts/
-  * mustafakurtuldu
-  * thomassteiner
 
 ### 2018 Q2
 
@@ -105,15 +42,6 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * houssein
 * https://web.dev/codelab-text-compression/
   * houssein
-
-### 2018 Q3
-
-* https://web.dev/prioritize-resources/
-  * sgomes
-* https://web.dev/choose-the-right-image-format/
-  * ilyagrigorik
-* https://web.dev/compress-images/
-  * ilyagrigorik
 
 ### 2018 Q4
 
@@ -182,9 +110,6 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * katiehempenius
 * https://web.dev/your-first-performance-budget/
   * mihajlija
-* https://web.dev/add-manifest/
-  * petelepage
-  * beaufortfrancois
 * https://web.dev/codelab-make-installable/
   * petelepage
 * https://web.dev/codelab-explore-network-panel/
@@ -193,9 +118,6 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * jeffposnick
 * https://web.dev/codelab-service-workers/
   * jeffposnick
-* https://web.dev/http-cache/
-  * jeffposnick
-  * ilyagrigorik
 * https://web.dev/identify-resources-via-network-panel/
   * jeffposnick
 * https://web.dev/network-connections-unreliable/
@@ -240,20 +162,11 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * robdodson
 * https://web.dev/control-focus-with-tabindex/
   * robdodson
-* https://web.dev/badging-api/
-  * petelepage
 * https://web.dev/codelab-serve-modern-code/
   * houssein
-* https://web.dev/wakelock/
-  * petelepage
-  * thomassteiner
-* https://web.dev/get-installed-related-apps/
-  * petelepage
 
 ### 2019 Q1
 
-* https://web.dev/shape-detection/
-  * thomassteiner
 * https://web.dev/using-lighthouse-bot-to-set-a-performance-budget/
   * mihajlija
 * https://web.dev/codelab-setting-performance-budgets-with-webpack/
@@ -262,13 +175,8 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * mihajlija
 * https://web.dev/using-bundlesize-with-travis-ci/
   * mihajlija
-* https://web.dev/responsive-web-design-basics/
-  * petelepage
-  * rachelandrew
 * https://web.dev/defer-non-critical-css/
   * demianrenzulli
-* https://web.dev/prefers-reduced-motion/
-  * thomassteiner
 
 ### 2019 Q2
 
@@ -400,8 +308,6 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * houssein
   * addyosmani
   * mathiasbynens
-* https://web.dev/contact-picker/
-  * petelepage
 * https://web.dev/more-capable-form-controls/
   * arthurevans
 * https://web.dev/codelab-optimize-third-party-javascript/
@@ -422,30 +328,10 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * mgechev
 * https://web.dev/truebil-lite/
   * hbatra
-* https://web.dev/lazy-loading-best-practices/
-  * jeremywagner
-  * rachelandrew
-* https://web.dev/lazy-loading-images/
-  * jeremywagner
-  * rachelandrew
-* https://web.dev/lazy-loading-video/
-  * jeremywagner
-  * rachelandrew
-* https://web.dev/lazy-loading/
-  * jeremywagner
-  * rachelandrew
-* https://web.dev/optimize-webfont-loading/
-  * ilyagrigorik
-* https://web.dev/reduce-webfont-size/
-  * ilyagrigorik
 * https://web.dev/multi-origin-pwas/
   * demianrenzulli
-* https://web.dev/native-file-system/
-  * petelepage
 * https://web.dev/ready-player-web/
   * tomgreenaway
-* https://web.dev/reporting-observer/
-  * ericbidelman
 * https://web.dev/codelab-apple-touch-icon/
   * kaycebasques
 * https://web.dev/video-basics/
@@ -598,21 +484,6 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * koto
 * https://web.dev/websocketstream/
   * thomassteiner
-* https://web.dev/accessible-responsive-design/
-  * dgash
-  * megginkearney
-  * rachelandrew
-  * robdodson
-* https://web.dev/accessible-tap-targets/
-  * dgash
-  * megginkearney
-  * rachelandrew
-  * robdodson
-* https://web.dev/color-and-contrast-accessibility/
-  * dgash
-  * megginkearney
-  * rachelandrew
-  * robdodson
 * https://web.dev/overloaded-server/
   * katiehempenius
 
@@ -816,6 +687,10 @@ Auto-generated on 2020/8/18 (YYYY/MM/DD)
   * beaufortfrancois
 * https://web.dev/webassembly-memory-debugging/
   * rreverser
+* https://web.dev/aria-poison-or-antidote/
+  * aaronlevanthal
+* https://web.dev/local-fonts/
+  * thomassteiner
 
 ## ignored
 
@@ -1001,3 +876,101 @@ The following pages were ignored because they are not content pages:
 * https://web.dev/tags/
 * https://web.dev/tags/accessibility/
 * https://web.dev/sw-partial-layout/
+
+### exceptions
+
+The following pages were included or ignored for special reasons:
+
+* https://web.dev/read-files
+  * ignored
+  * migrated content
+* https://web.dev/drag-and-drop
+  * ignored
+  * migrated content
+* https://web.dev/promises
+  * ignored
+  * migrated content
+* https://web.dev/why-https-matters
+  * ignored
+  * migrated content
+* https://web.dev/vitals
+  * included
+  * content page with special formatting that was accidentally being excluded
+* https://web.dev/http-cache
+  * ignored
+  * migrated content
+* https://web.dev/choose-the-right-image-format
+  * ignored
+  * migrated content
+* https://web.dev/prioritize-resources
+  * ignored
+  * migrated content
+* https://web.dev/resize-observer
+  * ignored
+  * migrated content
+* https://web.dev/cache-api-quick-guide
+  * ignored
+  * migrated content
+* https://web.dev/variable-fonts
+  * ignored
+  * migrated content
+* https://web.dev/compress-images
+  * ignored
+  * migrated content
+* https://web.dev/add-manifest
+  * ignored
+  * migrated content
+* https://web.dev/wakelock
+  * ignored
+  * migrated content
+* https://web.dev/get-installed-related-apps
+  * ignored
+  * migrated content
+* https://web.dev/shape-detection
+  * ignored
+  * migrated content
+* https://web.dev/badging-api
+  * ignored
+  * migrated content
+* https://web.dev/responsive-web-design-basics
+  * ignored
+  * migrated content
+* https://web.dev/prefers-reduced-motion
+  * ignored
+  * migrated content
+* https://web.dev/reporting-observer
+  * ignored
+  * migrated content
+* https://web.dev/contact-picker
+  * ignored
+  * migrated content
+* https://web.dev/lazy-loading-best-practices
+  * ignored
+  * migrated content
+* https://web.dev/lazy-loading-images
+  * ignored
+  * migrated content
+* https://web.dev/lazy-loading-video
+  * ignored
+  * migrated content
+* https://web.dev/lazy-loading
+  * ignored
+  * migrated content
+* https://web.dev/optimize-webfont-loading
+  * ignored
+  * migrated content
+* https://web.dev/reduce-webfont-size
+  * ignored
+  * migrated content
+* https://web.dev/native-file-system
+  * ignored
+  * migrated content
+* https://web.dev/accessible-responsive-design
+  * ignored
+  * migrated content
+* https://web.dev/accessible-tap-targets
+  * ignored
+  * migrated content
+* https://web.dev/color-and-contrast-accessibility
+  * ignored
+  * migrated content

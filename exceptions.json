@@ -1,0 +1,126 @@
+{
+  "read-files": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "drag-and-drop": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "promises": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "why-https-matters": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "vitals": {
+    "ignore": false,
+    "message": "content page with special formatting that was accidentally being excluded"
+  },
+  "http-cache": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "choose-the-right-image-format": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "prioritize-resources": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "resize-observer": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "cache-api-quick-guide": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "variable-fonts": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "compress-images": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "add-manifest": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "wakelock": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "get-installed-related-apps": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "shape-detection": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "badging-api": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "responsive-web-design-basics": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "prefers-reduced-motion": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "reporting-observer": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "contact-picker": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "lazy-loading-best-practices": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "lazy-loading-images": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "lazy-loading-video": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "lazy-loading": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "optimize-webfont-loading": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "reduce-webfont-size": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "native-file-system": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "accessible-responsive-design": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "accessible-tap-targets": {
+    "ignore": true,
+    "message": "migrated content"
+  },
+  "color-and-contrast-accessibility": {
+    "ignore": true,
+    "message": "migrated content"
+  }
+}

@@ -1,7 +1,12 @@
+// TODO ignore stuff before first quarter of web.dev launch
+// TODO Make a note that it's a rough estimate and explain edge cases
+// e.g. web.dev/covid19 actually had lots of authors
+
 const puppeteer = require('puppeteer');
 const xml2js = require('xml2js');
 const axios = require('axios');
 const fs = require('fs');
+const exceptions = require('./exceptions.json');
 
 async function date(page) {
   const dateNode = await page.$('.w-author__published time');
@@ -75,6 +80,14 @@ async function content(page) {
   return valid;
 }
 
+function exclude(url) {
+  let target = new URL(url).pathname.replace(/\//g, '');
+  for (page in exceptions) {
+    if (page === target && exceptions[page].ignore) return true;
+  }
+  return false;
+}
+
 (async () => {
   try {
     const browser = await puppeteer.launch({
@@ -91,9 +104,10 @@ async function content(page) {
         noncontent: []
       }
     };
-    // for (let i = 100; i < 150; i++) {
+    // for (let i = 300; i < 400; i++) {
     for (let i = 0; i < json.urlset.url.length; i++) {
       const url = json.urlset.url[i].loc[0];
+      if (exclude(url)) continue;
       console.info(`Scraping ${url} (${i + 1} of ${json.urlset.url.length})`);
       await page.goto(url, {
         waitUntil: 'networkidle2'
@@ -153,6 +167,14 @@ async function content(page) {
     report.ignored.noncontent.forEach(url => {
       output += `* ${url}\n`;
     });
+    output += '\n### exceptions\n\n';
+    output += 'The following pages were included or ignored for special reasons:\n\n';
+    for (exception in exceptions) {
+      const info = exceptions[exception];
+      output += `* https://web.dev/${exception}\n`
+      output += `  * ${info.ignore === true ? 'ignored' : 'included'}\n`;
+      output += `  * ${info.message}\n`;
+    }
     fs.writeFileSync('report.md', output);
     await browser.close();
   } catch (error) {
