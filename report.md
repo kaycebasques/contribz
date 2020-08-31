@@ -1,12 +1,12 @@
 # report
 
-Auto-generated on 2020/8/20 (YYYY/MM/DD)
+Auto-generated on 2020/8/31 (YYYY/MM/DD)
 
 ## summary
 
 * 2018 Q2
   * authors: 2
-  * pages: 3
+  * pages: 2
 * 2018 Q4
   * authors: 10
   * pages: 59
@@ -15,7 +15,7 @@ Auto-generated on 2020/8/20 (YYYY/MM/DD)
   * pages: 5
 * 2019 Q2
   * authors: 33
-  * pages: 41
+  * pages: 42
 * 2019 Q3
   * authors: 22
   * pages: 34
@@ -30,7 +30,7 @@ Auto-generated on 2020/8/20 (YYYY/MM/DD)
   * pages: 59
 * 2020 Q3
   * authors: 25
-  * pages: 25
+  * pages: 28
 
 ## details
 
@@ -38,8 +38,6 @@ Auto-generated on 2020/8/20 (YYYY/MM/DD)
 
 * https://web.dev/codelab-preload-web-fonts/
   * gmimani
-* https://web.dev/codelab-preload-critical-assets/
-  * houssein
 * https://web.dev/codelab-text-compression/
   * houssein
 
@@ -180,6 +178,8 @@ Auto-generated on 2020/8/20 (YYYY/MM/DD)
 
 ### 2019 Q2
 
+* https://web.dev/codelab-preload-critical-assets/
+  * houssein
 * https://web.dev/accessibility-auditing-react/
   * houssein
 * https://web.dev/add-manifest-react/
@@ -688,9 +688,15 @@ Auto-generated on 2020/8/20 (YYYY/MM/DD)
 * https://web.dev/webassembly-memory-debugging/
   * rreverser
 * https://web.dev/aria-poison-or-antidote/
-  * aaronlevanthal
+  * aaronleventhal
 * https://web.dev/local-fonts/
   * thomassteiner
+* https://web.dev/handling-optional-payment-information/
+  * agektmr
+* https://web.dev/orchestrating-payment-transactions/
+  * agektmr
+* https://web.dev/change-password-url/
+  * agektmr
 
 ## ignored
 
@@ -860,7 +866,7 @@ The following pages were ignored because they are not content pages:
 * https://web.dev/reliable/
 * https://web.dev/secure/
 * https://web.dev/accessible/
-* https://web.dev/pl/
+* https://web.dev/
 * https://web.dev/metrics/
 * https://web.dev/progressive-web-apps/
 * https://web.dev/newsletter/archive/2020/02/
@@ -875,7 +881,6 @@ The following pages were ignored because they are not content pages:
 * https://web.dev/notifications/
 * https://web.dev/tags/
 * https://web.dev/tags/accessibility/
-* https://web.dev/sw-partial-layout/
 
 ### exceptions
 
