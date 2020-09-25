@@ -1,18 +1,27 @@
 # report
 
-Auto-generated on 2020/8/31 (YYYY/MM/DD)
+Auto-generated on 2020/9/24 (YYYY/MM/DD)
 
 ## summary
 
+* 2015 Q1
+  * authors: 2
+  * pages: 1
+* 2017 Q2
+  * authors: 1
+  * pages: 6
 * 2018 Q2
   * authors: 2
   * pages: 2
+* 2018 Q3
+  * authors: 1
+  * pages: 1
 * 2018 Q4
-  * authors: 10
+  * authors: 11
   * pages: 59
 * 2019 Q1
-  * authors: 2
-  * pages: 5
+  * authors: 3
+  * pages: 6
 * 2019 Q2
   * authors: 33
   * pages: 42
@@ -26,13 +35,34 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * authors: 18
   * pages: 22
 * 2020 Q2
-  * authors: 40
-  * pages: 59
+  * authors: 41
+  * pages: 61
 * 2020 Q3
-  * authors: 25
-  * pages: 28
+  * authors: 32
+  * pages: 39
 
 ## details
+
+### 2015 Q1
+
+* https://web.dev/video-and-source-tags/
+  * samdutton
+  * joemedley
+
+### 2017 Q2
+
+* https://web.dev/media-application-basics/
+  * joemedley
+* https://web.dev/bitrate/
+  * joemedley
+* https://web.dev/containers-and-codecs/
+  * joemedley
+* https://web.dev/media-experience/
+  * joemedley
+* https://web.dev/prepare-media/
+  * joemedley
+* https://web.dev/resolution/
+  * joemedley
 
 ### 2018 Q2
 
@@ -40,6 +70,11 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * gmimani
 * https://web.dev/codelab-text-compression/
   * houssein
+
+### 2018 Q3
+
+* https://web.dev/media-cheat-sheet/
+  * joemedley
 
 ### 2018 Q4
 
@@ -158,10 +193,11 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * robdodson
 * https://web.dev/what-is-accessibility/
   * robdodson
-* https://web.dev/control-focus-with-tabindex/
-  * robdodson
 * https://web.dev/codelab-serve-modern-code/
   * houssein
+* https://web.dev/wake-lock/
+  * petelepage
+  * thomassteiner
 
 ### 2019 Q1
 
@@ -173,6 +209,8 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * mihajlija
 * https://web.dev/using-bundlesize-with-travis-ci/
   * mihajlija
+* https://web.dev/model-viewer/
+  * joemedley
 * https://web.dev/defer-non-critical-css/
   * demianrenzulli
 
@@ -430,6 +468,7 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * joemedley
 * https://web.dev/maskable-icon/
   * tigeroakes
+  * thomassteiner
 * https://web.dev/workbox-share-targets/
   * samrichard
   * joemedley
@@ -591,6 +630,10 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * thomassteiner
 * https://web.dev/text-fragments/
   * thomassteiner
+* https://web.dev/add-media/
+  * joemedley
+* https://web.dev/media-file-basics/
+  * joemedley
 * https://web.dev/origin-trials/
   * samdutton
 * https://web.dev/trust-tokens/
@@ -689,6 +732,8 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * rreverser
 * https://web.dev/aria-poison-or-antidote/
   * aaronleventhal
+* https://web.dev/media-accessibility/
+  * joemedley
 * https://web.dev/local-fonts/
   * thomassteiner
 * https://web.dev/handling-optional-payment-information/
@@ -697,6 +742,30 @@ Auto-generated on 2020/8/31 (YYYY/MM/DD)
   * agektmr
 * https://web.dev/change-password-url/
   * agektmr
+* https://web.dev/css-marker-pseudo-element/
+  * adamargyle
+  * loirooriol
+* https://web.dev/introducing-model-viewer/
+  * rkochman
+  * joemedley
+* https://web.dev/css-clipping/
+  * rachelandrew
+* https://web.dev/css-masking/
+  * rachelandrew
+* https://web.dev/multi-screen-window-placement/
+  * thomassteiner
+* https://web.dev/hid/
+  * beaufortfrancois
+* https://web.dev/how-mercadolibre-optimized-web-vitals/
+  * demianrenzulli
+  * aranhacarlos
+  * joanbaca
+* https://web.dev/content-delivery-networks/
+  * katiehempenius
+* https://web.dev/ptz/
+  * beaufortfrancois
+* https://web.dev/offline-fallback-page/
+  * thomassteiner
 
 ## ignored
 
@@ -865,22 +934,24 @@ The following pages were ignored because they are not content pages:
 * https://web.dev/react/
 * https://web.dev/reliable/
 * https://web.dev/secure/
-* https://web.dev/accessible/
 * https://web.dev/
 * https://web.dev/metrics/
+* https://web.dev/newsletter/archive/2019/11/
 * https://web.dev/progressive-web-apps/
 * https://web.dev/newsletter/archive/2020/02/
 * https://web.dev/newsletter/
 * https://web.dev/newsletter/archive/2020/03/
 * https://web.dev/podcasts/
 * https://web.dev/vitals/
+* https://web.dev/media/
 * https://web.dev/newsletter/archive/2020/06/
 * https://web.dev/live/
+* https://web.dev/newsletter/archive/2020/07/
 * https://web.dev/authors/
 * https://web.dev/authors/jakearchibald/
 * https://web.dev/notifications/
 * https://web.dev/tags/
-* https://web.dev/tags/accessibility/
+* https://web.dev/tags/3d/
 
 ### exceptions
 

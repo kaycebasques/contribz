@@ -109,9 +109,14 @@ function exclude(url) {
       const url = json.urlset.url[i].loc[0];
       if (exclude(url)) continue;
       console.info(`Scraping ${url} (${i + 1} of ${json.urlset.url.length})`);
-      await page.goto(url, {
-        waitUntil: 'networkidle2'
-      });
+      try {
+        await page.goto(url, {
+          waitUntil: 'networkidle2'
+        });
+      } catch (error) {
+        console.error('error fetching', url, error);
+        continue;
+      }
       const valid = await content(page);
       if (!valid) {
         report.ignored.noncontent.push(url);
