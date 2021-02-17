@@ -13,7 +13,7 @@ async function getFiles(dir) {
   return Array.prototype.concat(...files);
 }
 
-async function test() {
+async function parse() {
   const files = await getFiles(`${config.path}/src/site/content/en`);
   const markdown = files.filter(file => file.endsWith('index.md'));
   const data = {};
@@ -41,20 +41,6 @@ async function test() {
     output += `${values.join('|')}\n`;
   }
   writeFile('results.csv', output);
-  // const output = {};
-  // for (file in data) {
-  //   const end = file.indexOf('/index.md');
-  //   const start = file.substring(0, end).lastIndexOf('/') + 1;
-  //   let id = file.substring(start);
-  //   id = id.substring(0, id.lastIndexOf('/index.md'));
-  //   output[id] = {};
-  //   if (data[file].title) output[id].title = data[file].title;
-  //   if (data[file].authors) output[id].authors = data[file].authors;
-  //   if (data[file].date) output[id].date = data[file].date;
-  //   if (data[file].updated) output[id].updated = data[file].updated;
-  //   if (data[file].tags) output[id].tags = data[file].tags;
-  // }
-  // writeFile('results.json', JSON.stringify(output, null, 2));
 }
 
-test();
+parse();

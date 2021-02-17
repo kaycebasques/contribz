@@ -1,10 +1,6 @@
 # contribz
 
-[report.md](report.md) provides information about how many people have
-contributed content to web.dev per quarter. `index.js` is the source code of the
-reporting logic.
+## Generate tags and author data from Markdown
 
-## Building from source
-
-1. `npm i`
-2. `npm run start`
+1. Update `config.json` to point to your web.dev source code repository.
+1. Run `npm run markdown`. The results are written to `results.csv`.
